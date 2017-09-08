@@ -10,6 +10,7 @@ The current adminimizer.php file hosted here is only set to remove Comments from
 ## Options
 Several of the menu items can be removed from the dashboard by adding the right function within `remove_menus()` in adminimizer.php
 
+For example:
 1. Comments - `remove_menu_page( 'edit-comments.php' );`
 2. Posts - `remove_menu_page( 'edit.php' );`
-3. asdf
+3. Appearance - `remove_menu_page( 'themes.php' );`
